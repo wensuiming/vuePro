@@ -11,13 +11,13 @@
 <script>
 export default {
   name: 'App',
-  data() {
+  data () {
     return {
       backCcolor: '#000'
     }
   },
   watch: {
-    backCcolor(newVal, oldVal) {
+    backCcolor (newVal, oldVal) {
       console.log(newVal)
       // this.$refs.app.style.background = newVal
     }

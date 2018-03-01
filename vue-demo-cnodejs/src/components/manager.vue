@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       tag: '/',
       allDatas: []
@@ -60,4 +60,3 @@ export default {
   color: #888;
 }
 </style>
-
