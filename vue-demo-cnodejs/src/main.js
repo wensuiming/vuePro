@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import iVueui from 'ivueui'
+import 'ivueui/dist/styles/icon.css'
+import 'ivueui/dist/styles/ivueui.css'
+import vuex from 'vuex'
 
 // 引入api文件
 import api from './api/index.js'
@@ -10,6 +14,8 @@ import api from './api/index.js'
 Vue.prototype.$api = api
 
 Vue.config.productionTip = false
+Vue.use(vuex)
+Vue.use(iVueui)
 
 /* eslint-disable no-new */
 new Vue({
