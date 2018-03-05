@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '@/components/home'
-import manager from '@/components/manager'
+import welcome from '@/pages/welcome'
+import interduce from '@/pages/interduce'
 
 Vue.use(Router)
 
@@ -9,12 +9,16 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: home
+      redirect: '/welcome'
     },
     {
-      path: '/manager',
-      component: manager
+      path: '/welcome',
+      name: 'welcome',
+      component: welcome
+    },
+    {
+      path: '/interduce',
+      component: interduce
     }
   ]
 })
