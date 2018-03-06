@@ -8,3 +8,5 @@
 * iVUE UI框架
 * VUEX
 * 打包工具  webpack
+
+**参与者邱柯  小明**
